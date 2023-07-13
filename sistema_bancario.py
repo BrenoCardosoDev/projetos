@@ -1,5 +1,5 @@
 '''
-## Autor: Breno Francisco de Souza Cardoso
+## Autor: Breno Cardoso
 
 ## Desafio: Criar um sistema bancário com as operações de sacar, depositar e visualizar extrato.
 

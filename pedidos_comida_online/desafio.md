@@ -20,6 +20,6 @@ Certifique-se de testar seu programa com esses exemplos e com outros casos poss�
 
 | Entrada	| Saída |
 | - | - |
-| 3 Pizza 29.90 Hambúrguer 15.50 Refrigerante 7.00 10%	| Valor total: 47.16 |
-| 2 Salada 12.00 Suco 10.50 20% | Valor total: 18.00 |
-| 4 X-Burger 19.99 Salada 29.99 Sushi 61.00 Pudim 10.00 20% |	Valor total: 96.78 |
+| 3<br/> Pizza 29.90<br/> Hambúrguer 15.50<br/> Refrigerante 7.00<br/> 10%	| Valor total: 47.16 |
+| 2<br/> Salada 12.00<br/> Suco 10.50<br/> 20% | Valor total: 18.00 |
+| 4<br/> X-Burger 19.99<br/> Salada 29.99<br/> Sushi 61.00<br/> Pudim 10.00<br/> 20% |	Valor total: 96.78 |

@@ -22,6 +22,6 @@ Certifique-se de testar seu programa com esses exemplos e com outros casos possÃ
 
 | Entrada	| SaÃ­da |
 | - | - |
-| McDonalds 10	| O restaurante McDonalds entrega em 10 minutos. |
-| KFC 25 | O restaurante KFC entrega em 25 minutos. |
-| Burger King 5 |	O restaurante Burguer King entrega em 5 minutos. |
+| McDonalds<br/> 10	| O restaurante McDonalds entrega em 10 minutos. |
+| KFC<br/> 25 | O restaurante KFC entrega em 25 minutos. |
+| Burger King<br/> 5 |	O restaurante Burguer King entrega em 5 minutos. |

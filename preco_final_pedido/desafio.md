@@ -38,6 +38,6 @@ Certifique-se de testar seu programa com esses exemplos e com outros casos poss�
 
 | Entrada	| Saída |
 | - | - |
-| 10.00 2 5.00 1 30.00	| O preço final do pedido é R$ 25.00. Seu troco é R$ 5.00. |
-| 15.00 3 6.00 2 60.00 | O preço final do pedido é R$ 57.00. Seu troco é R$ 3.00. |
-| 8.00 1 4.00 4 50.00 |	O preço final do pedido é R$ 24.00. Seu troco é R$ 30.00. |
+| 10.00<br/> 2<br/> 5.00<br/> 1<br/> 30.00	| O preço final do pedido é R$ 25.00. Seu troco é R$ 5.00. |
+| 15.00<br/> 3<br/> 6.00<br/> 2<br/> 60.00 | O preço final do pedido é R$ 57.00. Seu troco é R$ 3.00. |
+| 8.00<br/> 1<br/> 4.00<br/> 4<br/> 50.00 |	O preço final do pedido é R$ 24.00. Seu troco é R$ 30.00. |

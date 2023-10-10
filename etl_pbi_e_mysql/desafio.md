@@ -1,2 +1,2 @@
 # Desafio
-Aplicar as etapas de ETL de daods com Power BI e MySQL na Azure.
+Aplicar as etapas de coleta, transformação e processamento de dados com Power BI e MySQL na Azure.

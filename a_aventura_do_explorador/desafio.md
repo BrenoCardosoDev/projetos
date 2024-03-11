@@ -17,6 +17,9 @@ Certifique-se de testar seu programa com esses exemplos e com outros casos poss√
 
 | Entrada	| Sa√≠da |
 | - | - |
-| 2	| Explorador: 1 passo \nExplorador: 2 passos |
-| 3 | Explorador: 1 passo \nExplorador: 2 passos \nExplorador: 3 passos |
+| 2	| Explorador: 1 passo 
+Explorador: 2 passos |
+| 3 | Explorador: 1 passo 
+Explorador: 2 passos 
+Explorador: 3 passos |
 | 0 | Nenhum passo dado na floresta. |

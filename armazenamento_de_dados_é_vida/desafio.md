@@ -1,3 +1,5 @@
+# Armazenamnto de Dados é Vida!
+
 # Desafio
 Com as máquinas pesadas agrupadas estrategicamente, graças ao seu algoritmo de cálculo energético, agora a mineração está muito mais eficiente! 
 Com isso, os CodeMiners logo terão que aumentar a capacidade de armazenamento de dados em seus discos de Mithril. 

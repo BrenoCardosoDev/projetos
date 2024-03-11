@@ -1,4 +1,4 @@
-# Armazenamnto de Dados é Vida!
+# Armazenamento de Dados é Vida!
 
 # Desafio
 Com as máquinas pesadas agrupadas estrategicamente, graças ao seu algoritmo de cálculo energético, agora a mineração está muito mais eficiente! 

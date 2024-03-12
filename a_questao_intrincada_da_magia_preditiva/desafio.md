@@ -16,7 +16,7 @@ Aqui estão os critérios mágicos para cada elemento:
   * Presença de componente raro.
   * Fase lunar durante o feitiço é cheia.
   * Idade do feiticeiro é igual ou inferior a 100 anos.
-  * Afinidade com animais mágicos.
+  * NÃO TEM Afinidade com animais mágicos.
 * Elemento Terra:
   * Intensidade do feitiço maior ou igual a 7.
   * Presença de componente raro.

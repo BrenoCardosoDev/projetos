@@ -32,3 +32,6 @@ print(b1.cor, b1.modelo, b1.ano, b1.valor) # Acessando os atributos desse objeto
 b2 = Bicicleta("verde", "monark", 200, 189) # Criando outro objeto
 Bicicleta.buzinar(b2) # Chamando o método buzinar da classe Bicicleta para o objeto b2 (outra forma)
 print(b2)
+
+# Métodos são funcões que estão dentro de uma classe.
+# Self é uma referência explícita do objeto (instância da classe).

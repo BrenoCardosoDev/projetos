@@ -1,12 +1,12 @@
 import textwrap
-from abc import ABC, abstractclassmethod, abstractproperty
+from abc import ABC, abstractmethod
 from datetime import datetime
 
 
 class Cliente:
     def __init__(self, endereco):
         self.endereco = endereco
-        self.contas= []
+        self.contas = []
 
     def realizar_transacao(self, conta, transacao):
         transacao.registrar(conta)
@@ -33,7 +33,7 @@ class Conta:
 
     @classmethod
     def nova_conta(cls, cliente, numero):
-        return cls(numero. cliente)
+        return cls(numero, cliente)
     
     @property
     def saldo(self):
@@ -87,11 +87,11 @@ class ContaCorrente(Conta):
     def __init__(self, numero, cliente, limite=500, limite_saques=3):
         super().__init__(numero, cliente)
         self.limite = limite
-        self.limie_saques = limite_saques
+        self.limite_saques = limite_saques
 
     def sacar(self, valor):
         numero_saques = len(
-            [transacao for transacao in self.historico.transacoes if transacao["tipo"]== Saque.__name__]
+            [transacao for transacao in self.historico.transacoes if transacao["tipo"] == Saque.__name__]
         )
 
         excedeu_limite = valor > self.limite
@@ -129,19 +129,19 @@ class Historico:
             {
                 "tipo": transacao.__class__.__name__,
                 "valor": transacao.valor,
-                "data": datetime.now().strftime("%d-%m-%Y %H:%M:%s"),
+                "data": datetime.now().strftime("%d-%m-%Y %H:%M:%S"),
             }
         )
 
 
 class Transacao(ABC):
     @property
-    @abstractproperty
+    @abstractmethod
     def valor(self):
         pass
 
-    @abstractclassmethod
-    def registrar(Self, conta):
+    @abstractmethod
+    def registrar(self, conta):
         pass
 
 
@@ -244,7 +244,7 @@ def exibir_extrato(clientes):
     cliente = filtrar_cliente(cpf, clientes)
 
     if not cliente:
-        print("\@@@ Cliente não encontrado! @@@")
+        print("\n@@@ Cliente não encontrado! @@@")
         return
     
     conta = recuperar_conta_cliente(cliente)
@@ -264,6 +264,7 @@ def exibir_extrato(clientes):
     print(extrato)
     print(f"\nSaldo:\n\tR$ {conta.saldo:.2f}")
     print("==========================================")
+
 
 def criar_cliente(clientes):
     cpf = input("Informe o CPF (somente número): ")
@@ -315,7 +316,7 @@ def main():
         if opcao == "d":
             depositar(clientes)
 
-        elif opcao =="s":
+        elif opcao == "s":
             sacar(clientes)
 
         elif opcao == "e":
@@ -328,11 +329,14 @@ def main():
             numero_conta = len(contas) + 1
             criar_conta(numero_conta, clientes, contas)
 
-        elif opcao =="lc":
+        elif opcao == "lc":
             listar_contas(contas)
         
-        elif opcao =="q":
+        elif opcao == "q":
             break
 
         else:
             print("\n@@@ Operação inválida, por favor selecione novamente a operação desejada. @@@")
+
+if __name__ == "__main__":
+    main()
